@@ -2,14 +2,18 @@
 
 面向希望学习深度学习、大语言模型、AI 安全与机器学习理论的同学。根据自己的基础和当前问题选择入口，课程用于建立整体认识，教材与论文用于深入阅读和按需查阅。
 
+[课程与大模型](#deep-learning) · [AI 安全](#ai-safety) · [机器学习理论](#learning-theory) · [优化](#optimization) · [数学基础](#mathematics)
+
 ## 从哪里开始
 
-- **刚接触深度学习**：从吴恩达课程开始，配合 Dive into Deep Learning 查阅概念。
-- **已经有神经网络基础**：进入李宏毅生成式 AI 课程，结合 Transformer 图解和 Hugging Face 教程阅读。
-- **对 AI 安全感兴趣**：先了解问题全貌，再选择模型与数据安全、应用安全或对齐方向。
-- **希望读懂理论论文**：从机器学习理论入手，遇到数学和优化问题时查阅对应教材。
+- **[刚接触深度学习](#deep-learning)**：从吴恩达课程开始，配合 Dive into Deep Learning 查阅概念。
+- **[已经有神经网络基础](#deep-learning)**：进入李宏毅生成式 AI 课程，结合 Transformer 图解和 Hugging Face 教程阅读。
+- **[对 AI 安全感兴趣](#ai-safety)**：先了解问题全貌，再选择模型与数据安全、应用安全或对齐方向。
+- **[希望读懂理论论文](#learning-theory)**：从机器学习理论入手，遇到数学和优化问题时查阅对应教材。
 
 学习阶段请独立理解和编写代码，不要使用 AI 代写代码。
+
+<a id="deep-learning"></a>
 
 ## 深度学习与大语言模型
 
@@ -30,6 +34,8 @@
 
 希望拓展研究视野，可阅读 **[On the Opportunities and Risks of Foundation Models](materials/LLM/2108.07258v3.pdf)**（[论文页面](https://arxiv.org/abs/2108.07258)）。从摘要和引言开始，再按兴趣选择技术、应用与风险相关部分；阅读具体技术时，可结合后续论文了解进展。
 
+<a id="ai-safety"></a>
+
 ## AI 安全：从问题全貌到研究方向
 
 先阅读 **[Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com/textbook)**，了解 AI 风险、安全、伦理与社会影响，再结合 **[《大语言模型安全与隐私保护》](materials/LLM/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%AE%89%E5%85%A8%E4%B8%8E%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4V20.pdf)** 聚焦大模型场景。
@@ -44,6 +50,8 @@
 
 阅读安全方法时，重点关注它保护什么、假设攻击者具备哪些能力、如何评价效果，以及适用于哪些场景。
 
+<a id="learning-theory"></a>
+
 ## 机器学习理论：理解模型为什么能够泛化
 
 从 **[Understanding Machine Learning: From Theory to Algorithms](materials/Understanding%20Machine%20Learning%20%282014%2C%20Cambridge%20University%20Press%29%20-%20libgen.li.pdf)** 入手，理解学习问题的数学表述，以及样本数量、模型复杂度与泛化之间的关系。
@@ -52,6 +60,8 @@
 
 **[Lecture Notes: Mathematical Analysis of Machine Learning Algorithms](materials/Lecture%20Notes-%20Mathematical%20Analysis%20of%20Machine%20Learning%20Algorithms.pdf)** 可作为补充阅读入口，结合教材和论文涉及的主题查阅。另可按需查阅 [MLbookSol.pdf](materials/MLbookSol.pdf)。
 
+<a id="optimization"></a>
+
 ## 优化：理解训练算法与收敛分析
 
 已经了解梯度下降后，可以阅读 **[Optimization Methods for Large-Scale Machine Learning](materials/Optimization%20Methods%20for%20Large-Scale%20Machine%20Learning.pdf)**，理解大规模训练中不同优化方法的计算成本与适用条件。先看问题设置和方法概览，再围绕感兴趣的算法深入阅读。
@@ -59,6 +69,8 @@
 需要进一步理解算法复杂度和收敛证明时，阅读 Bubeck 的 **[Convex Optimization: Algorithms and Complexity](materials/convex_optimization_sbubeck.pdf)**。先熟悉凸性与基本优化方法，再看收敛分析，留意光滑性、强凸性等条件如何影响结论。
 
 比较优化方法时，可以同时关注每步计算量、存储需求和收敛条件。
+
+<a id="mathematics"></a>
 
 ## 数学基础：遇到问题时从这里查
 
